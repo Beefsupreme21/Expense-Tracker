@@ -18,7 +18,7 @@ function addExpense() {
     let cell4 = row.insertCell(3);
     nameCell.innerHTML = name;
     cell2.innerHTML = date;
-    cell3.innerHTML = amount;
+    cell3.innerHTML = '$' + amount;
     cell4.innerHTML = '<button class="deleteBtn">Delete</button>';
     document.getElementById('name-area').value = '';
     document.getElementById('date-area').value = '';
@@ -40,4 +40,4 @@ function onDeleteRow(e) {
 function name()
    {  
    document.getElementById('elementid').value = "";
-   }
+}
