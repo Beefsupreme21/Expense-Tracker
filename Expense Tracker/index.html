@@ -14,22 +14,27 @@
         <div class="name-section">
             Name:<input id="name-area" type="text">
         </div>
-        <div class="date-amount">
+        <div class="date-section">
             Date:<input id="date-area" type="date">
-            Amount:<input id="amount-area" type="text">
+        </div>
+        <div class="amount-sectoin">
+            Amount:<input id="amount-area" type="number">
         </div>
 
         <button onclick="addExpense()">Add Expense</button>
     </div>
     <div id="todo-list"></div>
 
-    <table id="myTable">
-        <tr>
-          <td>Name</td>
-          <td>Date</td>
-          <td>Amount</td>
-        </tr>
-    </table>
+    <main>
+        <table id="myTable">
+            <tr>
+            <td>Name</td>
+            <td>Date</td>
+            <td>Amount</td>
+            </tr>
+        </table>
+        <div class="piechart"></div>
+    </main>
 
     <script src="script.js"></script>
     

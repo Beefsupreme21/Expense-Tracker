@@ -1,4 +1,25 @@
+
+main {
+    display: flex;
+}
+
+
+#myTable {
+    max-width: 60%;
+}
+
+tr {
+    max-height: 20px;
+}
+
 td {
     border: 1px solid black;
-    gap: 20px;
+    width: 300px;
+
+    gap: 0;
 }
+
+.input-section {
+    display: flex;
+}
+
